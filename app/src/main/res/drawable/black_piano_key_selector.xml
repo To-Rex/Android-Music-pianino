@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:state_pressed="true"
+        android:drawable="@drawable/pressed_black_key"
+        android:paddingTop="10sp">
+    </item>
+
+    <item
+        android:drawable="@drawable/normal_black_key"
+        android:layout_marginTop="50dp"></item>
+</selector>
