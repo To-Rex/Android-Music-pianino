@@ -87,13 +87,12 @@ class MainActivity : AppCompatActivity() {
             scroll_view.scrollTo(scroll_view.scrollX  + 60, scroll_view.scrollX )
         }
     }
-    override fun onClick(v: View?) {
+    fun onClick(v: View?) {
         when(v?.id)
         {
             R.id.tc3-> soundPool.play(c3, 1f, 1f, 0, 0, 1f)
             R.id.p1 ->
                 soundPool.play(c3, 1f, 1f, 0, 0, 1f)
-
 
             R.id.b1->
                 soundPool.play(c3Black, 1f, 1f, 0, 0, 1f)
@@ -456,4 +455,6 @@ class MainActivity : AppCompatActivity() {
         p35.setOnClickListener(this)
 
     }
+
+    fun record(view: View) {}
 }
